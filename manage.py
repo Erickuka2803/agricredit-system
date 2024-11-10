@@ -36,3 +36,5 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'loan_scoring',  # Make sure this app is included
 ]
+ALLOWED_HOSTS = ['*']  # or your specific domain
+ALLOWED_HOSTS = ['agricreditsystem.azurewebsites.net', '127.0.0.1']
